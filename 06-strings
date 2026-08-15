@@ -1,0 +1,38 @@
+//Strings
+let myName = "Manuel"
+let Greeting = "Hola " + myName + ",encantado de conocerte"
+console.log (Greeting)
+console.log (typeof Greeting)
+
+//Longitud
+console.log(Greeting.length)
+
+//Acceso a caracteres
+console.log(Greeting[0])
+console.log(Greeting[32])
+
+//Métodos comunes
+console.log(Greeting.toUpperCase())
+console.log(Greeting.toLowerCase())
+console.log(Greeting.indexOf("Manuel"))
+console.log(Greeting.includes(myName))
+console.log(Greeting.includes("myName"))
+console.log(Greeting.slice(0,21))
+console.log(Greeting.replace( "Manuel","Johan" ))
+
+//Template literals
+let message = `Hola, este es mi seguimiento 
+ del curso de js`
+ console.log(message)
+//Nota: con este símbolo ` puedes hacer un string en varias líneas
+let email = "manuelexample@gmail.com"
+console.log(`Hola, ${myName}! Tu email es ${email}`)
+
+
+
+
+
+
+
+
+
