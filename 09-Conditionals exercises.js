@@ -56,14 +56,36 @@ default: month= "Ese número de mes no existe"
 }
 console.log(month)
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior switch
-
-
-
-
-
-
-
-
-
-
-
+ month ="april"
+if (month=="january"||month=="march"||month== "may"||month== "july"||month== "august"||month== "october"||month== "december"){console.log("Mes con 31 días")}
+else if (month=="february") {console.log("Mes con 28 o 29 días")}
+else console.log("Mes con 30 días")
+// 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+let idiom = "Español"
+let idioms
+switch(idiom){
+case "Español":idioms = "Hola"
+break
+case "Ingles": idioms= "Hello"
+break
+case "Frances": idioms = "Salut"
+break
+case "Aleman" : idioms = "Hallo"
+break
+}
+console.log(idioms)
+//Parte 1 (ejercicio de Gemini)
+let compra =100
+if (compra >=100) (console.log("Envío gratuito"))
+else (console.log("se cobrará 5 $ de envío"))
+//Parte 2 (ejercicio de Gemini)
+let tipocliente= "VIP"
+let tiposdeclientes
+switch(tiposdeclientes){
+case "VIP":tiposdeclientes =("20% de descuento")
+break
+case "REGULAR":tiposdeclientes=("10% de descuento")
+break
+case "NUEVO":tiposdeclientes=("0% de descuento")
+break}
+console.log(tipocliente)
