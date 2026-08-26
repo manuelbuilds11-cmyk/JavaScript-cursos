@@ -50,3 +50,30 @@ if (myMap.has(5)){(console.log(myMap.get(5)))}
 myMap.set("verano",["June","July","August"])
 console.log(myMap)
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
+//IA
+let Countrylist1 = ["Spain", "France", "Germany", "Portugal", "Italy"]
+let myCountrylist1 = new Set(Countrylist1)
+let countrylist1 = new Map()
+countrylist1.set("paises", myCountrylist1)
+console.log(Countrylist1)
+console.log(myCountrylist1)
+console.log(countrylist1)
+//MI código mas tedioso pero funcional
+// 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
+let MyArray = []
+let Countrylist = new Array()
+Countrylist = new Array("Spain", "France", "Germany", "Portugal", "Italy")
+let myCountrylist = new Set(Countrylist)
+let MyCountrylist = new Set(["Spain", "France", "Germany", "Portugal", "Italy"])
+
+let countrylist = new Map([
+  ["Country1", "Spain"],
+  ["Country2", "France"],
+  ["Country3", "Geramny"],
+  ["Country4", "Portugal"],
+  ["Country5", "Italy"]
+])
+
+console.log(Countrylist)
+console.log(MyCountrylist)
+console.log(countrylist)
